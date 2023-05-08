@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace HeadFirstBirdEggs;
 
-namespace HeadFirstBirdEggs
-{
-    internal class Ostrich : Bird
+internal class Ostrich : Bird
+{ 
+    public override Egg[] LayEggs(int numberOfEggs)
     {
-        public override Egg[] LayEggs(Egg[] eggs)
+        Egg[] eggs = new Egg[numberOfEggs];
+        for (int i = 0; i < numberOfEggs; i++)
         {
-            Egg egg = new Egg(12, "speckled");
-            return egg[0];
+            eggs[i] = new Egg(Bird.Randomizer.NextDouble() + 12, "speckled");
         }
+        return eggs;
     }
 }

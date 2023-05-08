@@ -1,10 +1,3 @@
-// HeadFirstBirdEggs
-// HeadFirstBirdEggs
-// Egg.cs
-// Created: 05 07 2023
-// Author: Rob Ranf (robranf)
-// (C) 2023 Emiya Consulting, LLC
-
 namespace HeadFirstBirdEggs;
 
 public class Egg

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Net;
 
 namespace HeadFirstBirdEggs;
 
@@ -22,6 +21,7 @@ internal class Program
                 bird = new Ostrich();
             } else
             {
+                Console.WriteLine("\n");
                 return;
             }
 

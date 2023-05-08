@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace HeadFirstBirdEggs;
 
-namespace HeadFirstBirdEggs
+internal class Pigeon : Bird
 {
-    internal class Pigeon : Bird
+    public override Egg[] LayEggs(int numberOfEggs)
     {
-        public override Egg[] LayEggs()
+        Egg[] eggs = new Egg[numberOfEggs];
+        for (int i = 0; i < numberOfEggs; i++)
         {
-            return base.LayEggs();
+            eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "white");
         }
+
+        return eggs;
     }
 }
