@@ -8,5 +8,9 @@ namespace HeadFirstBirdEggs
 {
     internal class Pigeon : Bird
     {
+        public override Egg[] LayEggs()
+        {
+            return base.LayEggs();
+        }
     }
 }

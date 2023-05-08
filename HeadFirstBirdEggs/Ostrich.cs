@@ -8,5 +8,10 @@ namespace HeadFirstBirdEggs
 {
     internal class Ostrich : Bird
     {
+        public override Egg[] LayEggs(Egg[] eggs)
+        {
+            Egg egg = new Egg(12, "speckled");
+            return egg[0];
+        }
     }
 }
