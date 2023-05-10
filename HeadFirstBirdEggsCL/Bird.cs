@@ -1,6 +1,6 @@
 using System;
 
-namespace HeadFirstBirdEggs;
+namespace HeadFirstBirdEggsCL;
 
 public class Bird
 {

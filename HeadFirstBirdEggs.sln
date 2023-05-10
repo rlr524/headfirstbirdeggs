@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstBirdEggs", "HeadFirstBirdEggs\HeadFirstBirdEggs.csproj", "{9C834CB3-189E-4A41-985A-8156BF62CED6}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadFirstBirdEggs", "HeadFirstBirdEggs\HeadFirstBirdEggs.csproj", "{9C834CB3-189E-4A41-985A-8156BF62CED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstBirdEggsCL", "HeadFirstBirdEggsCL\HeadFirstBirdEggsCL.csproj", "{EE4E263F-0411-4D8E-90C3-17BB112F3BD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{9C834CB3-189E-4A41-985A-8156BF62CED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C834CB3-189E-4A41-985A-8156BF62CED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C834CB3-189E-4A41-985A-8156BF62CED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4E263F-0411-4D8E-90C3-17BB112F3BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4E263F-0411-4D8E-90C3-17BB112F3BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4E263F-0411-4D8E-90C3-17BB112F3BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4E263F-0411-4D8E-90C3-17BB112F3BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78DD4DA4-BFDB-4099-A5DA-FEDE1626ACB6}
 	EndGlobalSection
 EndGlobal

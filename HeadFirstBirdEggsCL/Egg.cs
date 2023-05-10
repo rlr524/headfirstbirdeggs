@@ -1,4 +1,4 @@
-namespace HeadFirstBirdEggs;
+namespace HeadFirstBirdEggsCL;
 
 public class Egg
 {

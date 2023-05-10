@@ -1,15 +1,14 @@
-﻿namespace HeadFirstBirdEggs;
+﻿namespace HeadFirstBirdEggsCL;
 
-internal class Pigeon : Bird
-{
+public class Ostrich : Bird
+{ 
     public override Egg[] LayEggs(int numberOfEggs)
     {
         Egg[] eggs = new Egg[numberOfEggs];
         for (int i = 0; i < numberOfEggs; i++)
         {
-            eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, "white");
+            eggs[i] = new Egg(Bird.Randomizer.NextDouble() + 12, "speckled");
         }
-
         return eggs;
     }
 }
